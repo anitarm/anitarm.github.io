@@ -1,0 +1,47 @@
+.header {
+    background-color: salmon;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+
+  .tittle_header{
+    margin-top: 0px;
+    color: black;
+    flex: 1;
+  }
+
+  .input_header_container{
+    flex: 1;
+  }
+
+  .header_info {
+    margin-top: 5px;
+    font-size: 10px;
+    color: white;
+  }
+
+  .content{
+      display: flex;
+      flex-direction: column;
+      border: 3px dashed green;
+  }
+
+  .span_content{
+      padding: 10px 20px;
+      color: black;
+      background-color: cadetblue;
+      margin-bottom: 5px;
+  }
+
+  .span_content_close{
+      padding: 1px 15px;
+      position: absolute;
+      right: 10px;
+  }
+  
+  .content_none {
+      display: none;
+  }
